@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="explain.css">
+    <link rel="stylesheet" href="navigationbar.css">
+</head>
+<body>
+
+<div class="box">
+    <div class="box1">
+        <div class="box2">
+            <div class="jazzing">
+                <p class="title">城市规划</p>
+                <p class="contain"> "城市规划"是规范城市发展建设，研究城市的未来发展、城市的合理布局和综合安排城市各项工程建设的综合部署，是一定时期内城市发展的蓝图，是城市管理的重要组成部分，是城市建设和管理的依据，也是城市规划、城市建设、城市运行三个阶段中的前提。
+                </p>
+            </div>
+
+        </div>
+        <div  id="t_1" class="box3 show"   style="overflow:auto;white-space:normal;background-color: rgba(255 , 255 ,255 , 0.5);">
+            <div id="app" style="margin: 20px;">
+                <div class="jazzing">
+                <p class="title">意义</p>
+                <p class="contain"> 合理利用城市土地，保护城市环境，保证城市居住和生产活动的正常进行，有效地预防和解决城市化带来的各种问题。如果任由城市发展，则工业和人口激增，环境污染加重，交通拥挤，居住条件差，绿化面积少等。我国正经历工业化和城市化，如果不进行城市规划，将会造成严重的城市问题。
+                </p>
+                </div>
+            </div>
+
+        </div>
+        <div id="t_2" class="box3 hide"   style="overflow:auto;background-color: rgba(255 , 255 ,255 , 0.5);">
+                <div class="jazzing">
+                    <p class="title" >城市的布局形式</p>
+                    <p class="main">集中紧凑式 </p>
+                    <p class="contain"> 合理利用城市土地，保护城市环境，保证城市居住和生产活动的正常进行，有效地预防和解决城市化带来的各种问题。如果任由城市发展，则工业和人口激增，环境污染加重，交通拥挤，居住条件差，绿化面积少等。我国正经历工业化和城市化，如果不进行城市规划，将会造成严重的城市问题。
+                    </p>
+                    <p class="main">分散疏松式 </p>
+                    <p class="contain"> 合理利用城市土地，保护城市环境，保证城市居住和生产活动的正常进行，有效地预防和解决城市化带来的各种问题。如果任由城市发展，则工业和人口激增，环境污染加重，交通拥挤，居住条件差，绿化面积少等。我国正经历工业化和城市化，如果不进行城市规划，将会造成严重的城市问题。
+                    </p>
+                </div>
+
+        </div>
+
+        <div id="t_3" class="box3 hide"  style="overflow:auto;background-color: rgba(255 , 255 ,255 , 0.5);">
+            <div class="jazzing">
+                <p class="title" >功能区合理布局</p>
+                <p class="main">集中紧凑式 </p>
+                <p class="contain"> 合理利用城市土地，保护城市环境，保证城市居住和生产活动的正常进行，有效地预防和解决城市化带来的各种问题。如果任由城市发展，则工业和人口激增，环境污染加重，交通拥挤，居住条件差，绿化面积少等。我国正经历工业化和城市化，如果不进行城市规划，将会造成严重的城市问题。
+                </p>
+                <p class="main">分散疏松式 </p>
+                <p class="contain"> 合理利用城市土地，保护城市环境，保证城市居住和生产活动的正常进行，有效地预防和解决城市化带来的各种问题。如果任由城市发展，则工业和人口激增，环境污染加重，交通拥挤，居住条件差，绿化面积少等。我国正经历工业化和城市化，如果不进行城市规划，将会造成严重的城市问题。
+                </p>
+            </div>
+
+        </div>
+
+
+        <div id="t_4" class="box3 hide"  style="overflow:auto;background-color: rgba(255 , 255 ,255 , 0.5);">
+            <div class="testContainer">
+
+            </div>
+            <script src="jquery.min.js"></script>
+
+            <!--    <script src="jquery.time-to.js"></script>-->
+            <script src="index.js"></script>
+        </div>
+    </div>
+
+</div>
+
+<nav class="shell">
+    <ul   id="tab_nav" class="buttons">
+        <li id="tab_content1" style="font-family:STXinwei;border-radius:300px;"> &nbsp 城市规划的意义</li>
+        <li id="tab_content2" style="font-family:STXinwei;border-radius:300px;"> &nbsp 城市的布局形式</a></li>
+        <li id="tab_content3" style="font-family:STXinwei;border-radius:300px;"> &nbsp 功能区合理布置</a></li>
+        <li id="tab_content4" style="font-family:STXinwei;border-radius:300px;"> &nbsp 视频学习</a></li>
+    </ul>
+</nav>
+<div class="fanhui"  id="fanhui" onclick="location.href='ditu.html'">
+    <img src="images/fanhui.png">
+</div>
+
+<style lang="scss">
+    .el-radio__label{
+        width:600px;
+        white-space:normal;
+        font-size: 24px;
+        line-height: 1;
+    }
+    .el-radio__inner{
+        width: 20px;
+        height: 20px;
+    }
+    .fanhui img{
+        width: 800%;
+        /* height: 100%; */
+        /* margin-left: -200%; */
+        margin-top: -1000%;
+    }
+</style>
+</body>
+<script src="js/tangshi.js"></script>
+<script>
+
+
+    var goreturn = document.getElementById("fanhui");
+    goreturn.onclick = function () {
+        // alert("00");
+        window.location.href="home.html";
+    }
+    
+
+
+
+    </script>
+</html>

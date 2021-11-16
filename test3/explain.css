@@ -1,0 +1,103 @@
+.box1{
+    width:75vw;
+    height:85vh;
+    border: #bfbfbf solid;
+    margin:0% 0px 0px 14%;
+    border-radius:10px;
+    /* background-image: url("images/2.png"); */
+    background-size:100% 100%;
+}
+.box2{
+    background-color: rgba(255 , 255 ,255 , 0.5);
+    /* background-color: rgba(97, 27, 27, 0.5); */
+    float:left;
+     width:47%;
+     height:99%;
+    border: rgba(82, 41, 22, 0) solid;
+    text-align: center;
+    border-radius:30px;
+    overflow:auto;
+    /* margin: 0 1%; */
+    padding: 0 0.1%;
+}
+.box3{
+    background-color: rgba(255 , 255 ,255 , 0.5);
+    float:right;
+    height:99%;
+    width:49%;
+    border:rgba(82, 41, 22, 0) solid;
+    border-radius:30px;
+    padding: 0 1%;
+
+}
+.box2 p{
+    font-family:STXinwei;
+    font-size: 1.7em;
+    line-height:60px;
+    letter-spacing:5px;
+   
+}
+.box3 p{
+    font-family:STXinwei;
+    line-height:60px;
+    letter-spacing:5px;
+    font-size: 1.7em;
+}
+.jazzing{
+    margin: 50px auto;
+}
+.title{
+    font-size: 38px;
+}
+.main{
+    font-size: 34px;
+    font-weight:bold;
+}
+.contain{
+    font-size: 30px;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("images/2.png") no-repeat;
+    background-size:100% 100%;
+}
+
+.show{
+    display:block;
+}
+.hide{
+    display:none;
+}
+#tab_content{overflow:hidden;}
+div.fanhui img:hover{
+    -webkit-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1);
+    z-index: 9999;
+}
+.fanhui{
+    position: absolute;
+    text-align:center;
+    top: 80%;
+    left: 5%;
+    width: 1%;
+    cursor: pointer;
+}
+/*滚动条样式*/
+.box3::-webkit-scrollbar {
+    width: 4px;    
+    /*height: 4px;*/
+}
+.box3::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
+}
+.box3::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 0;
+    background: rgba(0,0,0,0.1);
+
+}
